@@ -1,0 +1,91 @@
+
+.recommendation-align{
+    margin-top: 15vh !important;
+    background-color: #2a2a2a;
+}
+
+.recommendation-title{
+    font-weight: 600 !important;
+    /* margin-bottom: 20px !important; */
+    padding: 15px 0 !important;
+    font-size: 1.2rem !important;
+}
+.recommendation-content{
+    margin: 0px 5px;
+    
+}
+.recommendation-content-select{
+    margin-top: 20px;
+}
+.form-select-genres{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 0 10px;
+}
+.recommendation-button{
+    width: 90%;
+    height: 40px;
+    background-color:#DDF247;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.recommendation-button:hover {
+    background-color: #6cc832;
+}
+.custom-textfield .MuiOutlinedInput-root {
+    border-radius: 8px;
+  }
+  
+  .custom-textfield .MuiOutlinedInput-notchedOutline {
+    border-color: #abc4ed;
+  }
+  
+  .custom-textfield:hover .MuiOutlinedInput-notchedOutline {
+    border-color: blue;
+  }
+  
+  .custom-textfield.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: red;
+  }
+  
+  .custom-textfield .MuiInputLabel-root {
+    color: #abc4ed;
+  }
+  
+  .custom-textfield.Mui-focused .MuiInputLabel-root {
+    color: red;
+  }
+  
+  /* For Select */
+  .custom-select .MuiOutlinedInput-notchedOutline {
+    border-color: #abc4ed;
+  }
+  
+  .custom-select:hover .MuiOutlinedInput-notchedOutline {
+    border-color: orange;
+  }
+  
+  .custom-select.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: pink;
+  }
+  
+  .custom-select .MuiInputLabel-root {
+    color: #abc4ed;
+  }
+  
+  .custom-select.Mui-focused .MuiInputLabel-root {
+    color: pink;
+  }
+  .css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input, .css-w4nesw-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #abc4ed !important;
+  }
+  .css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #abc4ed !important;
+  }

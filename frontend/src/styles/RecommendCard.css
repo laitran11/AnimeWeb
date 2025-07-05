@@ -1,0 +1,77 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 85%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .card-info {
+    flex: 1;
+  }
+  
+  .card-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;
+    line-height: 1.5em;
+  }
+  
+  .card-title:hover {
+    color: #6cc832;
+  }
+  
+  .card-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  .card-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    font-size: 0.8rem;
+    line-height: 1.2rem;                   
+    max-height: calc(1.2rem * 3);   
+    color: #abc4ed;        
+  }
+  
+.recommendation-result-text{
+    color: #6cc832;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 30% 10% !important;
+  }

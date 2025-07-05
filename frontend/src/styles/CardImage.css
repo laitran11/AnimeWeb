@@ -1,0 +1,39 @@
+.card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff !important;
+}
+.card-image:hover{
+    transform: scale(1.05);
+}
+.card-title{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;
+    line-height: 1.5em;
+    margin-top: 8px;
+}
+.card-title:hover{
+    color: #6cc832;
+}
+.card-description{
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
