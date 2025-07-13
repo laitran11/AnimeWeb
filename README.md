@@ -5,15 +5,15 @@ A web application that provides anime information and personalized recommendatio
 ## Features
 
 - Search and browse anime titles with descriptions, genres, studios, and scores
-- Personalized anime recommendations using Word2Vec and FAISS similarity search
-- Responsive UI built with React (or your frontend framework)
-- Backend REST API powered by Flask (or Django) serving recommendation endpoints
+- Responsive UI built with React 
+- Backend REST API powered by Flask for serving recommendation endpoints
 - Supports filtering by genre, type, and other metadata
+- Recommend similar anime from name, descriptions, genres and studios.
 
 ## Tech Stack
 
-- Frontend: React (or specify your frontend tech)
-- Backend: Flask (or Django) REST API
+- Frontend: React 
+- Backend: Flask, Django REST API
 - Recommendation engine: Word2Vec (Gensim), FAISS
-- Database: CSV or MongoDB (specify if you use one)
+- Database: CSV and MongoDB 
 - Python 3.10, Pandas, Numpy, Gensim, FAISS
